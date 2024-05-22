@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
 # Set app-specific password directly (for testing purposes)
-os.environ['EMAIL_PASSWORD'] = 'qyaf kjjp sciv yhvz'
+os.environ['EMAIL_PASSWORD'] = 'TBC'
 
 def send_email(receiver_email, Subject, body):
     sender_email = "shakibduste517@gmail.com" #Email id
