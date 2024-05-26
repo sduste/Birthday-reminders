@@ -9,7 +9,7 @@ from email.mime.text import MIMEText
 os.environ['EMAIL_PASSWORD'] = 'TBC'
 
 def send_email(receiver_email, Subject, body):
-    sender_email = "shakibduste517@gmail.com" #Email id
+    sender_email = "xxxxx" #Email id
     sender_password = os.getenv('Email_Password') #App specific password
 
     #setup the MIME
